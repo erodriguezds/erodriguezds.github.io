@@ -1,0 +1,317 @@
+* {
+	font-family: TT Commons,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+  }
+  
+  p {
+	text-align: justify;
+    text-justify: inter-word;
+  }
+
+	ul > li > p {
+		margin: 0 auto;
+		font-size: 13px;
+	}
+
+  .w50 {
+  	width: 50%;
+  	display: inline-block;
+  	float: left;
+  }
+  .w33 {
+  	width: 33%;
+  	display: inline-block;
+  	float: left;
+  }
+
+.resume {
+	background-color: white;
+	text-align: left;
+	.row {
+		width: 100%;
+	}
+}
+	
+@media screen{
+	body{
+		background-color: grey;
+	}
+	.letter-sheet{
+		width: 8.5in;
+		height: 11.0in;
+		padding: 0.6in;
+		border: solid 1px black;
+		margin: 0.5in auto;
+		background-color: white;
+	}
+}
+	
+@media print{
+	body{
+		background-color: white;;
+	}
+	.letter-sheet{
+		width: 8.49in;
+		height: 100%;
+		padding: 0.6in;
+		border: none;
+		background-color: white;
+		page-break-after: always;
+	}
+}
+
+.personal-info{
+	clear: both;
+	display: block;
+	height: 2.0in;
+	width: 100%;
+}
+	.picture{
+		/*background-image: url("images/foto-cv-eduardo.jpg");*/
+		background-size: 1.6in auto;
+		border: 3px solid grey;
+		border-radius: 1in;
+		height: 1.6in;
+		width: 1.6in;
+		float: left;
+		margin-right: 0.4in;
+	}
+	
+	.name-and-title{
+		float: left;
+		width: 30%;
+		display: inline-block;
+		//margin-top: 0.3in;
+	}
+	
+	.contact-icon {
+		width: 24px;
+		height: 24px;
+		background-size: 24px 24px;
+		float: left;
+		margin-top: -4px;
+		margin-right: 8px;
+	}
+	
+	.skype { background-image: url(./../../public/images/skype.png); }
+	.whatsapp { background-image: url(./../../public/images/whatsapp.png); }
+	.mail { background-image: url(./../../public/images/mail.png); }
+	.github { background-image: url(./../../public/images/github.png); }
+	.linkedin { background-image: url(./../../public/images/linkedin.png); }
+	.location {
+		background-image: url(./../../public/images/gmaps.png);
+	}
+	
+	div.job-icon {
+		/*background-image: url(images/job.png);*/
+		width: 32px;
+		height: 32px;
+		background-size: 32px 32px;
+		margin-top: -4px;
+		margin-right: 8px;
+		position: absolute;
+		left: -18px;
+	}
+
+	img.job-icon {
+		width: 48px;
+		margin-top: -4px;
+		margin-right: 8px;
+		position: absolute;
+		left: -28px;
+		top: 0;
+	}
+  
+  .pblabel{
+	display: inline-block;
+	width: 40%;
+  }
+  
+  .skills {
+	font-size: 80%;
+  }
+
+  #skills-box ul{
+  	padding-left: 15px;
+  	font-size: 12px;
+  }
+
+	.skills-group{
+		box-sizing: border-box;
+	}
+
+  .skills-group .title {
+  	font-weight: bold;
+  	font-size: 14px;
+  }
+  
+  /*Progress Bars*/
+	.progress{
+		display: inline-block;
+		width: 100%;
+		background-color: #f5f5f5 !important;
+		border-radius: 4px;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+		height: 20px;
+		overflow: hidden;
+	}
+  
+	.progress-bar {
+		background-color: #337ab7;
+		box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+		color: #fff;
+		float: left;
+		font-size: 12px;
+		height: 100%;
+		line-height: 20px;
+		text-align: center;
+		transition: width 0.6s ease 0s;
+		width: 0;
+	}
+  
+	.progress-bar-success {
+		background-color: #5cb85c !important;
+	}
+	
+	/* Progress Bar Azul*/
+	.progress-bar-info {
+		background-color: #5bc0de !important;
+	}
+	
+	.progress-bar-striped,
+	.progress-striped .progress-bar {
+		background: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+		background-size: 40px 40px;
+	}
+  
+  .name{
+	font-size: 30px;
+	font-weight: bold;
+  }
+  
+  .lastname{
+	font-size: 26px;
+	font-weight: normal;
+  }
+  .specialty{
+    font-size: 16px;
+	font-weight: normal;
+  }
+  .contact-section{
+	float: right;
+    font-size: 13px;
+    width: 32%;
+	margin-top: 0.4in;
+	list-style-type: none;
+  }
+  
+  .contact-section li {
+	margin-bottom: 14px;
+  }
+  .contact-section p{
+	margin-top: 4px;
+	margin-bottom: 4px;
+  }
+  
+  .contact-section i.fa{
+	margin-right: 12px;
+	font-size:20px;
+  }
+  .fa.red{
+	color: red !important;
+  }
+  .fa.skypeblue{
+	color: #3e9dd7 !important;
+  }
+  
+  .left-column{
+	width: 55%;
+	float: left;
+	padding-right: 10px;
+  }
+  .right-column{
+	width: 40%;
+	float: right;
+  }
+  .section-title{
+    text-align: left;
+	font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-left: -10px;
+    text-transform: uppercase;
+    clear: both;
+  }
+  .section-title:before{
+	content: "//";
+	color: #ffd34e !important;
+  }
+  .round-icon-container{
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	background-color: #3e9dd7 !important;/*yellow !important;*/
+	position: absolute;
+	left: -18px;
+  }
+  .round-icon-container .fa{
+	position: relative;
+	top: 5px;
+	left: 8px;
+	color: white;
+  }
+  .jobs-box{
+	
+  }
+  .work-experience {
+	  position: relative;
+  }
+  .job, .degree{
+	padding-left: 20px;
+	padding-bottom: 10px;
+    position: relative;
+	border-left: 3px solid #ffd34e;
+  }
+  .job p{
+  	font-size: 12px;
+  }
+  .job.last-child,
+  .degree.last-child{
+	border-left: none;
+	padding-left: 23px;
+  }
+  .job-title,
+  .degree-title{
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+  }
+	.degree-school{
+		font-size: 12px;
+	}
+  .job-company,
+  .achievement-date {
+	font-size: 14px;
+	font-weight: normal;
+  }
+  .job-duration{
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	clear: both;
+  }
+
+  .skill-label{
+	display: inline-block;
+	width: 40%;
+  }
+  .skill-pb{
+	display: inline-block;
+	width: 60%;
+  }
+  .education-degrees li{
+	position: relative;
+	list-style-type: none;
+  }
+  .achievements p {
+	margin-top: 4px;
+  }
