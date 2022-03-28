@@ -15,7 +15,7 @@ export default function Resume(props) {
   return (
     <div className='resume letter-sheet container'>
 	    <div className="personal-info">
-		    <div className="picture" style={{backgroundImage : `url(${props.profilePicture || "/images/edu-wework.jpg"})`}}>
+		    <div className="picture" style={{backgroundImage : `url(${props.profilePicture || "images/edu-wework.jpg"})`}}>
 			</div>
 		
             <div className="name-and-title">
