@@ -7,6 +7,7 @@ import ExperienceTimeline from './resume/ExperienceTimeline';
 
 import { Container, Row, Col } from "react-bootstrap";
 import Job from './resume/Job';
+import SkillBox from './resume/SkillBox';
 
 
 export default function Resume(props) {
@@ -23,8 +24,7 @@ export default function Resume(props) {
             </div>
 		
             <ul className="contact-section">
-                <li><div className="contact-icon location"></div>Belgrano, Buenos Aires</li>
-                <li><div className="contact-icon whatsapp"></div>11 2761 4834</li>
+                <li><div className="contact-icon location"></div>Buenos Aires (CABA), Argentina</li>
                 <li><div className="contact-icon mail"></div>eduardo.rodriguez.dasilva@gmail.com</li>
                 <li><div className="contact-icon linkedin"></div>erodriguezds</li>
                 <li><div className="contact-icon github"></div>erodriguezds</li>
@@ -36,67 +36,12 @@ export default function Resume(props) {
 			<p>{props.about}</p>
 		</div>
 		<Row>
-        <Col sm="8">
-
-		
-            
-            
-            
+        <Col md="7">
             <ExperienceTimeline jobs={resume.jobs} />
 		</Col>
-		<Col sm="4">
+		<Col md="5">
 			<div className="section-title">Skills</div>
-			<div id="skills-box">
-				<div className="skills-group w33">
-					<div className="title">Front-End</div>
-					<ul>
-						<li>Vue</li>
-						<li>Webpack</li>
-						<li>ES6 (Javascript)</li>
-						<li>jQuery</li>
-						<li>HTML5</li>
-						<li>CSS3</li>
-					</ul>
-				</div>
-				<div className="skills-group w33">
-					<div className="title">Back-End</div>
-					<ul>
-						<li>PHP 5.6/7.x</li>
-						<li>Go(lang)</li>
-						<li>C# (.NET)</li>
-						<li>Node(js)</li>
-						<li>Java</li>
-					</ul>
-				</div>
-				<div className="skills-group w33">
-					<div className="title">Database</div>
-					<ul>
-						<li>MySql</li>
-						<li>MongoDB</li>
-						<li>Redis</li>
-					</ul>
-				</div>
-				<div className="skills-group w50">
-					<div className="title">Web-frameworks &amp; Tools</div>
-					<ul>
-						<li>Yii2 (PHP)</li>
-						<li>Slim 3 (PHP)</li>
-						<li>Lumen / Laravel (PHP)</li>
-						<li>Eloquent ORM (PHP)</li>
-						<li>Cake ORM (PHP)</li>
-						<li>Express (Node)</li>
-					</ul>
-				</div>
-				<div className="skills-group w50">
-					<div className="title">Others</div>
-					<ul>
-						<li>Docker</li>
-						<li>Git</li>
-						<li>Bitbucket</li>
-						<li>Jira</li>
-					</ul>
-				</div>
-			</div>
+			<SkillBox skillGroups={resume.skillGroups} />
 			<div className="section-title">Education</div>
 			<ul className="education-degrees">
 				<li className="degree">

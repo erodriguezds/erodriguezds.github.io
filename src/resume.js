@@ -42,6 +42,66 @@ const resume = Object.freeze({
             description: "Co-founder and developer of BioNomina, a SaaS platform for Time & Attendance control, which integrates with biometric T&A devices from major manufacturers."
         },
 
+    ],
+    skillGroups: [
+        {
+            groupName: "Front-End",
+            skills: [
+                "Vue(2)",
+                "React (w/hooks)",
+                "jQuery",
+                "Vanilla JS",
+                "HTML5",
+                "CSS",
+            ]
+        },
+        {
+            groupName: "Back-End",
+            skills: [
+                "Express (Node)",
+                "socket.io (Node)",
+                "Laravel (PHP)",
+                "Lumen (PHP)",
+                "Slim 3/4 (PHP)",
+                "Yii2 (PHP)",
+                "Symfony (PHP)",
+                "Cake ORM (PHP)",
+            ]
+        },
+        {
+            groupName: "Database",
+            skills: [
+                "MySQL",
+                "MongoDB",
+                "Redis",
+                "RabbitMQ",
+            ]
+        },
+        {
+            groupName: "Dev-Ops",
+            skills: [
+                "Docker",
+                "docker build",
+                "docker-compose",
+                "CI/CD pipelines",
+                "bash",
+            ]
+        },
+        {
+            groupName: "Languages",
+            skills: [
+                "Javascript",
+                "Typescript",
+                "PHP 5.6/7.x",
+                "C#",
+                "Java",
+                "Python",
+                "Go",
+            ]
+        },
+
+
+
     ]
 
 });
