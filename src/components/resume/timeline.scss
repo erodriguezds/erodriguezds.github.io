@@ -7,6 +7,21 @@
     border-left: 1px dashed rgb(81, 79, 211);
     padding: 0 0 30px 30px;
     position: relative;
+    font-size: 12px;
+    .icon {
+      width: 32px;
+      height: 32px;
+      background-size: 32px 32px;
+      margin-top: -4px;
+      margin-right: 8px;
+      position: absolute;
+      left: -18px;
+      background-color: white;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 13px;
+    }
   }
 
   .tl-item:last-child {

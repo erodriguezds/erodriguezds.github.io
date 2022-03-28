@@ -1,5 +1,5 @@
 const resume = Object.freeze({
-    about: "True full-stack engineer with +9 years of experience ranging from backend development with LAMP stack, Node, MongoDB, Redis, to on-premises based infrastructure, Docker, docker-compose, Docker-based microservices, CI/CD pipelines, to modern frontend development with Vue and React.",
+    about: "True full-stack engineer working full-time on web-development since 2013. My experience ranges from backend development with LAMP stack, Node, MongoDB, Redis, to on-premises based infrastructure, Docker, docker-compose, Docker-based microservices, CI/CD pipelines, to modern frontend development with Vue and React.",
     personalData: [
         { icon: "sarasa", text: "" },
 
@@ -53,6 +53,7 @@ const resume = Object.freeze({
                 "Vanilla JS",
                 "HTML5",
                 "CSS",
+                "SASS",
             ]
         },
         {
@@ -102,6 +103,23 @@ const resume = Object.freeze({
 
 
 
+    ],
+    // Education degrees
+    education: [
+        {
+            title: "Especialista en Telemática",
+            subtitle: "IT specialist",
+            graduationDate: "2010",
+            institute: "Universidad Simón Bolívar",
+            icon: "usb.svg",
+        },
+        {
+            title: "Ingeniero Electrónico",
+            subtitle: "B. Electronics Engineering",
+            graduationDate: "2007",
+            institute: "Universidad Simón Bolívar",
+            icon: "usb.svg",
+        }
     ]
 
 });

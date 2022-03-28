@@ -8,6 +8,7 @@ import ExperienceTimeline from './resume/ExperienceTimeline';
 import { Container, Row, Col } from "react-bootstrap";
 import Job from './resume/Job';
 import SkillBox from './resume/SkillBox';
+import Education from './resume/Education';
 
 
 export default function Resume(props) {
@@ -42,23 +43,7 @@ export default function Resume(props) {
 		<Col md="5">
 			<div className="section-title">Skills</div>
 			<SkillBox skillGroups={resume.skillGroups} />
-			<div className="section-title">Education</div>
-			<ul className="education-degrees">
-				<li className="degree">
-					<SchoolRoundedIcon />
-					<span className="degree-title">&quot;Especialista en Telemática&quot;</span>
-					<span className="degree-school">&quot;IT Specialist&quot;</span>
-					<span className="degree-school">at Universidad Simón Bolívar</span>
-					<span className="degree-duration">2008-2010</span>
-				</li>
-				<li className="degree last-child">
-					<div className="degree-icon"></div>
-					<span className="degree-title">&quot;Ingeniero Electrónico&quot;</span>
-					<span className="degree-school">&quot;Electronics Engineer&quot;</span>
-					<span className="degree-school">at Universidad Simón Bolívar</span>
-					<span className="degree-duration">2000 - 2006</span>
-				</li>
-			</ul>
+			<Education degrees={resume.education} />
 		</Col>
 
 		</Row>
