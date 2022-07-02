@@ -1,5 +1,5 @@
 const resume = Object.freeze({
-    about: "True full-stack engineer working full-time on web-development since 2013. My experience ranges from backend development with LAMP stack, Node, MongoDB, Redis, to on-premises based infrastructure, Docker, docker-compose, Docker-based microservices, CI/CD pipelines, to modern frontend development with Vue and React.",
+    about: "True full-stack engineer working full-time on web-development since 2013. My experience ranges from backend development with LAMP stack, Node (with and without Typescript), MongoDB, RabbitMQ, Redis, to DevOps experience building Docker images, creating docker-compose.yml files to facilitate the Dev processes, managing Docker-swarm cluster's, on-premises infrastructure,  building CI/CD pipelines with BitBucket, to modern frontend development with Vue and React.",
     personalData: [
         { icon: "sarasa", text: "" },
 
